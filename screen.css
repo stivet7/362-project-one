@@ -24,15 +24,22 @@ h2 {
   font-size: 1.4em; /* =25px */
 }
 option {
-  font-size: 1.0em;
+  font-size: 1em;
 }
 li {
   font-size: 0.8em;
 }
-label{
+label {
   font-size: 1.2em;
 }
+input {
+  font-size: 0.8em;
+}
 #username {
+  padding-bottom: 0.3em;
+  padding-top: 0.3em;
+}
+#email {
   padding-bottom: 0.3em;
   padding-top: 0.3em;
 }
@@ -42,11 +49,11 @@ label{
   padding-top: 0.2em;
 }
 #series {
-  font-size: 0.5em;
+  font-size: 0.9em;
 }
 #faction {
-  font-size: 0.8em;
+  font-size: 0.9em;
 }
 #submit {
-  font-size: 0.8em;
+  font-size: 1.2em;
 }
