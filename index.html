@@ -21,7 +21,7 @@
         </li>
       </ol>
       <h1>News Preferences<h1>
-        <ol>
+        <ol id ="news">
         <li><input type="checkbox" name="news1" >Figures</li>
         <li><input type="checkbox" name="news2" >Movies</li>
         <li><input type="checkbox" name="news3" >Comics</li>
@@ -30,7 +30,7 @@
       </ol>
       <h1>TF Interests !<h1>
         <h2>Favorite Series<h2>
-  <select>
+  <select id="series">
     <option value="G1">G1</option>
     <option value="BW">Beast Era</option>
     <option value="RD01">RiD (2001)</option>
@@ -45,7 +45,7 @@
     <option value="CBV">Cyberverse</option>
   </select>
   <h2>Favorite Faction/Group</h2>
-  <select>
+  <select id="faction">
     <option value="AB">Autobots</option>
     <option value="DC">Decepticons</option>
     <option value="WRK">Wreckers</option>
@@ -55,13 +55,11 @@
     <option value="JNK">Junkions</option>
   </select>
   <h2>Favorite Character</h2>
-  <li>
-    <input type="text" name="email" id="fave" placeholder="Ex: Optimus Prime" />
-  </li>
-  <ul>
-          <li><label for="submit">Submit</label></li>
-        <li><input type="submit" name="submit" id="submit" value="Sign Up!" /></li>
-      </ul>
+    <input type="text" name="fave" id="fave" placeholder="Ex: Optimus Prime" />
+    <ul>
+<li><label for="submit">Submit</label>
+<input type="submit" name="submit" id="submit" value="Sign Up!" /></li>
+</ul>
     </form>
   </main>
 </body>
