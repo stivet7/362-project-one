@@ -13,21 +13,21 @@ html {
   padding-right: 2em; /* =32px */
   padding-left: 2em;
   font-family: Tahoma;
-  font-size: 1.2em;
+  font-size: 1.2em; /* =19px */
 }
 /* h1 text style */
 h1 {
-  font-size: 1.6em; /* =28px */
+  font-size: 1.6em; /* =25px */
 }
 /* h2 text style */
 h2 {
-  font-size: 1.4em; /* =25px */
+  font-size: 1.4em; /* =22px */
 }
 option {
-  font-size: 1em;
+  font-size: 1em; /* =16px */
 }
 li {
-  font-size: 0.8em;
+  font-size: 0.8em; /* =12px */
 }
 label {
   font-size: 1.2em;
@@ -36,7 +36,7 @@ input {
   font-size: 0.8em;
 }
 #username {
-  padding-bottom: 0.3em;
+  padding-bottom: 0.3em; /* =4px */
   padding-top: 0.3em;
 }
 #email {
@@ -44,7 +44,7 @@ input {
   padding-top: 0.3em;
 }
 #news {
-  font-size: 0.9em;
+  font-size: 0.9em; /* =14px */
   padding-bottom: 0.2em;
   padding-top: 0.2em;
 }
