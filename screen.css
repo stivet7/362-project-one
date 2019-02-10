@@ -35,6 +35,10 @@ label {
 input {
   font-size: 0.8em;
 }
+img {
+  width: 10%;
+  height: auto;
+}
 #username {
   padding-bottom: 0.3em; /* =4px */
   padding-top: 0.3em;
