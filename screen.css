@@ -13,7 +13,10 @@ html {
   padding-right: 2em; /* =32px */
   padding-left: 2em;
   font-family: Tahoma;
-  font-size: 1.2em; /* =19px */
+  font-size: 1.125em; /* =18px */
+}
+body {
+  line-height: 1.375em; /* 22px */
 }
 /* h1 text style */
 h1 {
