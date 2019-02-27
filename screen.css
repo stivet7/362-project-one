@@ -20,22 +20,25 @@ body {
 }
 /* h1 text style */
 h1 {
-  font-size: 1.6em; /* =25px */
+  font-size: 1.4em; /* =22px */
 }
 /* h2 text style */
 h2 {
-  font-size: 1.4em; /* =22px */
+  font-size: 1.4em;
 }
 option {
   font-size: 1em; /* =16px */
 }
 li {
-  font-size: 0.8em; /* =12px */
+  font-size: 0.9em; /* =12px */
 }
 label {
   font-size: 1.2em;
 }
 input {
+  font-size: 0.9em;
+}
+figcaption {
   font-size: 0.8em;
 }
 img {
