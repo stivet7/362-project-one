@@ -11,19 +11,25 @@
     <h1>Seibertron Newsletter</h1>
     <figure class="primus">
   <img src="img/primus1.png" alt="prime" class="responsive" />
-    <form action="#null" method="get">
+  <figcaption> 'Till all are one </figcaption>
+    </figure>
       <ol>
         <li>
           <!--username input-->
           <label for="username">Username</label>
+          <form action="#null" method="get">
           <input type="text" name="username" id="username" />
+          </form>
         </li>
         <li>
           <!--email input-->
           <label for="email">Email Address</label>
+          <form action="#null" method="get">
           <input type="email" name="email" id="email" placeholder="Ex: name@example.com" />
+          </form>
         </li>
       </ol>
+
       <!--news preference checkboxes input-->
       <h1>News Preferences</h1>
         <ol>
@@ -74,7 +80,9 @@
   <h2>Favorite Character</h2>
   <!--fav character input-->
   <label for="name"></label>
+  <form action="#null" method="get">
   <input type="text" id="name" name="name" placeholder="Ex: Optimus Prime" />
+  </form>
     <ul>
       <h1>How did you find out about us? (Check all that apply)</h1>
         <ol>
@@ -95,7 +103,6 @@
 <li><label for="submit">Submit</label>
 <input type="submit" name="submit" id="submit" value="Sign Up!" /></li>
 </ul>
-    </form>
   </main>
 </body>
 </html>
