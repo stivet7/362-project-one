@@ -8,11 +8,13 @@
 </head>
 <body class="newsletter">
   <main id="content">
+    <section>
     <h1>Seibertron Newsletter</h1>
     <figure class="primus">
   <img src="img/primus1.png" alt="prime" class="responsive" />
   <figcaption> 'Till all are one </figcaption>
     </figure>
+  </section>
       <ol>
         <li>
           <!--username input-->
@@ -31,7 +33,7 @@
       </ol>
 
       <!--news preference checkboxes input-->
-      <h1>News Preferences</h1>
+      <label for="newsp">News Preferences</label>
         <ol>
         <li>
         <input type="checkbox" name="news1" /> Figures
@@ -48,43 +50,9 @@
       <li>
         <input type="checkbox" name="news5" /> Site Updates
       </li>
-      </ol>
-      <h1>TF Interests !</h1>
-        <h2>Favorite Series</h2>
-        <!--fav series dropdown list input-->
-  <select id="series">
-    <option value="G1">G1</option>
-    <option value="BW">Beast Era</option>
-    <option value="RD01">RiD (2001)</option>
-    <option value="ARM">Armada</option>
-    <option value="NRG">Energon</option>
-    <option value="CBR">Cybertron</option>
-    <option value="MV">Movie</option>
-    <option value="ANM">Animated</option>
-    <option value="IDW">IDW Comics</option>
-    <option value="PRM">Prime</option>
-    <option value="RD15">Rid (2015)</option>
-    <option value="CBV">Cyberverse</option>
-  </select>
-  <h2>Favorite Faction/Group</h2>
-  <!--fav faction dropdown list input-->
-  <select id="faction">
-    <option value="AB">Autobots</option>
-    <option value="DC">Decepticons</option>
-    <option value="WRK">Wreckers</option>
-    <option value="ELG">Elite Guard</option>
-    <option value="MXL">Maximals</option>
-    <option value="PRD">Predacons</option>
-    <option value="JNK">Junkions</option>
-  </select>
-  <h2>Favorite Character</h2>
-  <!--fav character input-->
-  <label for="name"></label>
-  <form action="#null" method="get">
-  <input type="text" id="name" name="name" placeholder="Ex: Optimus Prime" />
-  </form>
+    </ol>
     <ul>
-      <h1>How did you find out about us? (Check all that apply)</h1>
+      <label for="find">How did you find out about us? (Check all that apply)</label>
         <ol>
         <li>
         <input type="checkbox" name="abt1" /> Social Media
