@@ -50,11 +50,7 @@ figcaption {
 p {
   background-color: #D3D1DE;
   float: right;
-  position: absolute;
-  top: 1.875em; /* =30px */
-  left: 18em; /* =288px */
-  width: 23em; /* =400px */
-  height: 15.4em; /* =246px */
+  position: relative;
   border-radius: 0.313em; /* =5px */
 }
 img {
