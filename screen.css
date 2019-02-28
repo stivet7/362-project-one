@@ -47,6 +47,9 @@ figcaption {
   font-size: 0.8em;
   font-style: italic;
 }
+p {
+  float:right;
+}
 img {
   width: 20%;
   height: auto;
