@@ -28,7 +28,7 @@ h1 {
 h2 {
   text-decoration: underline;
   display: inline;
-  font-size: 1.375em; /* 22px */
+  font-size: 1.3em; /* 22px */
 }
 option {
   font-size: 1em; /* =16px */
@@ -50,6 +50,11 @@ figcaption {
 img {
   width: 20%;
   height: auto;
+  float: center;
+}
+footer {
+  padding-top: 0.5em;
+  font-size: 0.5em;
 }
 #username {
   padding-bottom: 0.3em; /* =4px */
