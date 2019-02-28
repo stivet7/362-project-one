@@ -55,6 +55,7 @@ p {
   left: 18em; /* =288px */
   width: 25em; /* =400px */
   height: 6.25em; /* =100px */
+  border-radius: 0.313em; /* =5px */
 }
 img {
   width: 20%;
