@@ -48,7 +48,13 @@ figcaption {
   font-style: italic;
 }
 p {
-  float:right;
+  background-color: #D3D1DE;
+  float: right;
+  position: absolute;
+  top: 1.875em; /* =30px */
+  left: 18em; /* =288px */
+  width: 25em; /* =400px */
+  height: 6.25em; /* =100px */
 }
 img {
   width: 20%;
